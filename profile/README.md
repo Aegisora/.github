@@ -35,21 +35,21 @@ Instead, every rule receives a `Context` object and returns a standardized `Resu
 
 | Package                                             | Description                                                             |
 | --------------------------------------------------- | ----------------------------------------------------------------------- |
-| [`aegisora/rule-contract`](/Aegisora/rule-contract) | Defines the core abstractions for building validation rules.            |
-| [`aegisora/guardian`](/Aegisora/guardian)           | Provides a fluent validation orchestrator for executing rule pipelines. |
+| [`aegisora/rule-contract`](https://github.com/Aegisora/rule-contract) | Defines the core abstractions for building validation rules.            |
+| [`aegisora/guardian`](https://github.com/Aegisora/guardian)           | Provides a fluent validation orchestrator for executing rule pipelines. |
 
 ### 🧪 Validation Rules
 
 | Package                                                           | Description                                     |
 | ----------------------------------------------------------------- | ----------------------------------------------- |
-| [`aegisora/email-rule`](/Aegisora/email-rule)                     | Validates email values.                         |
-| [`aegisora/in-array-rule`](/Aegisora/in-array-rule)               | Validates that a value exists in a given array. |
-| [`aegisora/instanceof-rule`](/Aegisora/instanceof-rule)           | Validates object type using `instanceof`.       |
-| [`aegisora/is-callable-rule`](/Aegisora/is-callable-rule)         | Validates callable values.                      |
-| [`aegisora/is-array-rule`](/Aegisora/is-array-rule)               | Validates array values.                         |
-| [`aegisora/boolean-rule`](/Aegisora/boolean-rule)                 | Validates boolean values.                       |
-| [`aegisora/emptiness-rule`](/Aegisora/emptiness-rule)             | Validates empty or non-empty values.            |
-| [`aegisora/scalar-equality-rule`](/Aegisora/scalar-equality-rule) | Validates scalar value equality.                |
+| [`aegisora/email-rule`](https://github.com/Aegisora/email-rule)                     | Validates email values.                         |
+| [`aegisora/in-array-rule`](https://github.com/Aegisora/in-array-rule)               | Validates that a value exists in a given array. |
+| [`aegisora/instanceof-rule`](https://github.com/Aegisora/instanceof-rule)           | Validates object type using `instanceof`.       |
+| [`aegisora/is-callable-rule`](https://github.com/Aegisora/is-callable-rule)         | Validates callable values.                      |
+| [`aegisora/is-array-rule`](https://github.com/Aegisora/is-array-rule)               | Validates array values.                         |
+| [`aegisora/boolean-rule`](https://github.com/Aegisora/boolean-rule)                 | Validates boolean values.                       |
+| [`aegisora/emptiness-rule`](https://github.com/Aegisora/emptiness-rule)             | Validates empty or non-empty values.            |
+| [`aegisora/scalar-equality-rule`](https://github.com/Aegisora/scalar-equality-rule) | Validates scalar value equality.                |
 
 ---
 
