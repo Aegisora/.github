@@ -50,6 +50,7 @@ Instead, every rule receives a `Context` object and returns a standardized `Resu
 | [`aegisora/boolean-rule`](https://github.com/Aegisora/boolean-rule)                 | Validates boolean values.                       |
 | [`aegisora/emptiness-rule`](https://github.com/Aegisora/emptiness-rule)             | Validates empty or non-empty values.            |
 | [`aegisora/scalar-equality-rule`](https://github.com/Aegisora/scalar-equality-rule) | Validates scalar value equality.                |
+| [`aegisora/state-transition-rule`](https://github.com/Aegisora/state-transition-rule) | Validates state transition.                |
 
 ---
 
