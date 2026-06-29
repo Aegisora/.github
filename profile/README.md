@@ -65,6 +65,7 @@ They are useful when you want a direct, intention-revealing API without manually
 | Package                                                                                     | Description                                                                      |
 | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | [`aegisora/instanceof-rule-guardian`](https://github.com/Aegisora/instanceof-rule-guardian) | Provides a shortcut for validating that a value is an instance of a given class. |
+| [`aegisora/email-rule-guardian`](https://github.com/Aegisora/email-rule-guardian) | Provides a simple shortcut for email validation. |
 
 ---
 
