@@ -37,24 +37,24 @@ For application-level usage, rules can be executed through `aegisora/guardian` o
 
 ### ⚙️ Core Packages
 
-| Package                                                               | Description                                                             |
-| --------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [`aegisora/rule-contract`](https://github.com/Aegisora/rule-contract) | Defines the core abstractions for building validation rules.            |
-| [`aegisora/guardian`](https://github.com/Aegisora/guardian)           | Provides a fluent validation orchestrator for executing rule pipelines. |
+| Package                                                               | Description                                                             | Statistics                                                                                                                                                         |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`aegisora/rule-contract`](https://github.com/Aegisora/rule-contract) | Defines the core abstractions for building validation rules.            | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/rule-contract?style=flat-square)](https://packagist.org/packages/aegisora/rule-contract) |
+| [`aegisora/guardian`](https://github.com/Aegisora/guardian)           | Provides a fluent validation orchestrator for executing rule pipelines. | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/guardian?style=flat-square)](https://packagist.org/packages/aegisora/guardian)      |
 
 ### 🧪 Validation Rules
 
-| Package                                                                               | Description                                     |
-| ------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| [`aegisora/email-rule`](https://github.com/Aegisora/email-rule)                       | Validates email values.                         |
-| [`aegisora/in-array-rule`](https://github.com/Aegisora/in-array-rule)                 | Validates that a value exists in a given array. |
-| [`aegisora/instanceof-rule`](https://github.com/Aegisora/instanceof-rule)             | Validates object type using `instanceof`.       |
-| [`aegisora/is-callable-rule`](https://github.com/Aegisora/is-callable-rule)           | Validates callable values.                      |
-| [`aegisora/is-array-rule`](https://github.com/Aegisora/is-array-rule)                 | Validates array values.                         |
-| [`aegisora/boolean-rule`](https://github.com/Aegisora/boolean-rule)                   | Validates boolean values.                       |
-| [`aegisora/emptiness-rule`](https://github.com/Aegisora/emptiness-rule)               | Validates empty or non-empty values.            |
-| [`aegisora/scalar-equality-rule`](https://github.com/Aegisora/scalar-equality-rule)   | Validates scalar value equality.                |
-| [`aegisora/state-transition-rule`](https://github.com/Aegisora/state-transition-rule) | Validates allowed state transitions.            |
+| Package                                                                               | Description                                     | Statistics                                                                                                                                                                |
+| ------------------------------------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`aegisora/email-rule`](https://github.com/Aegisora/email-rule)                       | Validates email values.                         | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/email-rule?style=flat-square)](https://packagist.org/packages/aegisora/email-rule)                       |
+| [`aegisora/in-array-rule`](https://github.com/Aegisora/in-array-rule)                 | Validates that a value exists in a given array. | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/in-array-rule?style=flat-square)](https://packagist.org/packages/aegisora/in-array-rule)                 |
+| [`aegisora/instanceof-rule`](https://github.com/Aegisora/instanceof-rule)             | Validates object type using `instanceof`.       | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/instanceof-rule?style=flat-square)](https://packagist.org/packages/aegisora/instanceof-rule)             |
+| [`aegisora/is-callable-rule`](https://github.com/Aegisora/is-callable-rule)           | Validates callable values.                      | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/is-callable-rule?style=flat-square)](https://packagist.org/packages/aegisora/is-callable-rule)           |
+| [`aegisora/is-array-rule`](https://github.com/Aegisora/is-array-rule)                 | Validates array values.                         | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/is-array-rule?style=flat-square)](https://packagist.org/packages/aegisora/is-array-rule)                 |
+| [`aegisora/boolean-rule`](https://github.com/Aegisora/boolean-rule)                   | Validates boolean values.                       | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/boolean-rule?style=flat-square)](https://packagist.org/packages/aegisora/boolean-rule)                   |
+| [`aegisora/emptiness-rule`](https://github.com/Aegisora/emptiness-rule)               | Validates empty or non-empty values.            | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/emptiness-rule?style=flat-square)](https://packagist.org/packages/aegisora/emptiness-rule)               |
+| [`aegisora/scalar-equality-rule`](https://github.com/Aegisora/scalar-equality-rule)   | Validates scalar value equality.                | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/scalar-equality-rule?style=flat-square)](https://packagist.org/packages/aegisora/scalar-equality-rule)   |
+| [`aegisora/state-transition-rule`](https://github.com/Aegisora/state-transition-rule) | Validates allowed state transitions.            | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/state-transition-rule?style=flat-square)](https://packagist.org/packages/aegisora/state-transition-rule) |
 
 ### 🛡️ Rule Guardians
 
@@ -62,11 +62,11 @@ Rule Guardians are shortcut packages built on top of `aegisora/guardian` and spe
 
 They are useful when you want a direct, intention-revealing API without manually creating a rule pipeline every time.
 
-| Package                                                                                     | Description                                                                      |
-| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| [`aegisora/instanceof-rule-guardian`](https://github.com/Aegisora/instanceof-rule-guardian) | Provides a shortcut for validating that a value is an instance of a given class. |
-| [`aegisora/email-rule-guardian`](https://github.com/Aegisora/email-rule-guardian) | Provides a simple shortcut for email validation. |
-| [`aegisora/in-array-rule-guardian`](https://github.com/Aegisora/in-array-rule-guardian) | Provides a simple shortcut for for in-array value validation. |
+| Package                                                                                     | Description                                                                      | Statistics                                                                                                                                                                      |
+| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`aegisora/instanceof-rule-guardian`](https://github.com/Aegisora/instanceof-rule-guardian) | Provides a shortcut for validating that a value is an instance of a given class. | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/instanceof-rule-guardian?style=flat-square)](https://packagist.org/packages/aegisora/instanceof-rule-guardian) |
+| [`aegisora/email-rule-guardian`](https://github.com/Aegisora/email-rule-guardian)           | Provides a simple shortcut for email validation.                                 | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/email-rule-guardian?style=flat-square)](https://packagist.org/packages/aegisora/email-rule-guardian)           |
+| [`aegisora/in-array-rule-guardian`](https://github.com/Aegisora/in-array-rule-guardian)     | Provides a simple shortcut for for in-array value validation.                    | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/in-array-rule-guardian?style=flat-square)](https://packagist.org/packages/aegisora/in-array-rule-guardian)     |
 
 ---
 
