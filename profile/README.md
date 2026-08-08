@@ -55,7 +55,7 @@ For application-level usage, rules can be executed through `aegisora/guardian` o
 | [`aegisora/emptiness-rule`](https://github.com/Aegisora/emptiness-rule)               | Validates empty or non-empty values.            | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/emptiness-rule?style=flat-square)](https://packagist.org/packages/aegisora/emptiness-rule)               |
 | [`aegisora/scalar-equality-rule`](https://github.com/Aegisora/scalar-equality-rule)   | Validates scalar value equality.                | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/scalar-equality-rule?style=flat-square)](https://packagist.org/packages/aegisora/scalar-equality-rule)   |
 | [`aegisora/state-transition-rule`](https://github.com/Aegisora/state-transition-rule) | Validates allowed state transitions.            | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/state-transition-rule?style=flat-square)](https://packagist.org/packages/aegisora/state-transition-rule) |
-| [`aegisora/json-rule`](https://github.com/Aegisora/json-rule)                         | Validates json values.                          | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/json-rule?style=flat-square)](https://packagist.org/packages/aegisora/state-transition-rule)             |
+| [`aegisora/json-rule`](https://github.com/Aegisora/json-rule)                         | Validates json values.                          | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/json-rule?style=flat-square)](https://packagist.org/packages/aegisora/json-rule)             |
 
 ### 🛡️ Rule Guardians
 
