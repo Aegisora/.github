@@ -71,6 +71,7 @@ They are useful when you want a direct, intention-revealing API without manually
 | [`aegisora/in-array-rule-guardian`](https://github.com/Aegisora/in-array-rule-guardian)     | Provides a simple shortcut for in-array value validation.                        | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/in-array-rule-guardian?style=flat-square)](https://packagist.org/packages/aegisora/in-array-rule-guardian)     |
 | [`aegisora/boolean-rule-guardian`](https://github.com/Aegisora/boolean-rule-guardian)       | Provides a simple shortcut for boolean value validation.                         | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/boolean-rule-guardian?style=flat-square)](https://packagist.org/packages/aegisora/boolean-rule-guardian)       |
 | [`aegisora/any-of-rule-guardian`](https://github.com/Aegisora/any-of-rule-guardian)         | Provides a simple shortcut for Rule-based logical OR validation implementation.  | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/any-of-rule-guardian?style=flat-square)](https://packagist.org/packages/aegisora/any-of-rule-guardian)         |
+| [`aegisora/json-rule-guardian`](https://github.com/Aegisora/json-rule-guardian)             | Provides a simple shortcut for JSON string validation.                           | [![Total Downloads](https://img.shields.io/packagist/dt/aegisora/json-rule-guardian?style=flat-square)](https://packagist.org/packages/aegisora/json-rule-guardian)             |
 
 ---
 
